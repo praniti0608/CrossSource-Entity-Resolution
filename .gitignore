@@ -1,0 +1,32 @@
+# Competition datasets
+Dataset/
+
+# Generated outputs
+Output/
+
+# Ground truth sample data
+Code/business_entity_resolution/sample_ground_truth_relationships.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Model artifacts (review before publishing)
+*.pkl
+*.joblib
+*.model
+
+# Secrets
+.env
+.env.*
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Code/business_entity_resolution/data_audit_report.txt
